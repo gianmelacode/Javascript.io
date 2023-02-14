@@ -1,6 +1,6 @@
-const dolar = 0.0053;
-const euro = 0.0049;
-const real = 0.027;
+const dolar = 375;
+const euro = 410;
+const real = 69;
 
 function cambio (){
 let continuar;
