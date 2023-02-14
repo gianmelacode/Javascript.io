@@ -1,6 +1,6 @@
-const dolar = 375;
-const euro = 410;
-const real = 69;
+const dolar = 0.0053;
+const euro = 0.0049;
+const real = 0.027;
 
 function cambio (){
 let continuar;
@@ -24,13 +24,13 @@ do {
         resultado = cifra * real
         document.write(cifra + " ARS = " + resultado + " BRL <br>");
     }
-   
+    else { document.write("No contamos con esa moneda en el conversor. Por favor ingrese una de las siguientes opciones: dolar, euro o real.") }
 
     console.log("La moneda elegida es " + moneda)
 
     continuar = prompt("¿Desea continuar? SI/NO").toUpperCase()
 
-} while (continuar != "SI")
+} while (continuar != "NO")
 
 }
-cambio()456454
+cambio()
