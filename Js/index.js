@@ -30,7 +30,7 @@ do {
 
     continuar = prompt("¿Desea continuar? SI/NO").toUpperCase()
 
-} while (continuar != "NO")
+} while (continuar != "SI")
 
 }
 cambio()
